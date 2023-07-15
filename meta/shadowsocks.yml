@@ -32,98 +32,90 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: "@free4allVPN|🇬🇧|109.31"
+  - name: United Kingdom Datacamp
     server: 212.102.53.79
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@free4allVPN|🇺🇸|39.64"
-    server: 169.197.142.187
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-    udp: true
-  - name: "@free4allVPN|🇬🇧|109.44"
+  - name: United Kingdom Datacamp 2
     server: 212.102.53.198
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
     udp: true
-  - name: "@xrayzxn|🇫🇷|122.65"
-    server: 51.178.87.37
-    port: 805
+  - name: Telegram | @FNET00⚡
+    server: 13.87.75.178
+    port: 7294
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
+    password: r0G2OWdFqqfcz34LYr9inz
     udp: true
-  - name: "@xrayzxn|🇫🇷|111.46"
-    server: 149.202.82.172
-    port: 5004
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: "@xrayzxn|🇫🇷|141.67"
+  - name: "@vless_new | تلگرام عضو بشید"
     server: 54.36.174.181
-    port: 8119
+    port: 6679
     type: ss
     cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
+    password: TEzjfAYq2IjtuoS
     udp: true
-  - name: "@VmessProtocol|🇩🇪|125.61"
-    server: 145.239.1.100
-    port: 9102
-    type: ss
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-    udp: true
-  - name: "@VmessProtocol|🇩🇪|128.26"
-    server: 145.239.1.100
-    port: 6379
-    type: ss
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-    udp: true
-  - name: "@OutlineVpnOfficial|🇵🇱|184.41"
-    server: ak1796.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 3306
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: "@OutlineVpnOfficial|🇸🇬|350.26"
-    server: ak1797.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 805
+  - name: "@vless_new | تلگرام عضو بشید 2"
+    server: 51.105.39.37
+    port: 39630
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
+    password: Qiz9xWRGKG1Lz11yu6D3nm
     udp: true
-  - name: "@AlienVPN402|🇫🇷|148.78"
-    server: 54.36.174.181
-    port: 9102
+  - name: "@VmessProtocol | برترین کانال سرور v2ray"
+    server: 40.120.63.151
+    port: 18295
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 9FojhKHRjBbQVBr0Q35Zr5
+    udp: true
+  - name: www.outline.network (US)
+    server: ak1804.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 8090
     type: ss
     cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
+    password: PCnnH6SQSnfoS27
+    udp: true
+  - name: www.outline.network (NL)
+    server: ak1805.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: LQzrOVLeO5yU9VoZWVxOE5
+    udp: true
+  - name: www.outline.network (DE)
+    server: ak1806.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    port: 24576
+    type: ss
+    cipher: aes-256-gcm
+    password: VdaItKYmFf
+    udp: true
+  - name: _KR_韩国
+    server: 43.202.58.144
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
     udp: true
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
-      - "@free4allVPN|🇬🇧|109.31"
-      - "@free4allVPN|🇺🇸|39.64"
-      - "@free4allVPN|🇬🇧|109.44"
-      - "@xrayzxn|🇫🇷|122.65"
-      - "@xrayzxn|🇫🇷|111.46"
-      - "@xrayzxn|🇫🇷|141.67"
-      - "@VmessProtocol|🇩🇪|125.61"
-      - "@VmessProtocol|🇩🇪|128.26"
-      - "@OutlineVpnOfficial|🇵🇱|184.41"
-      - "@OutlineVpnOfficial|🇸🇬|350.26"
-      - "@AlienVPN402|🇫🇷|148.78"
+      - United Kingdom Datacamp
+      - United Kingdom Datacamp 2
+      - Telegram | @FNET00⚡
+      - "@vless_new | تلگرام عضو بشید"
+      - "@vless_new | تلگرام عضو بشید 2"
+      - "@VmessProtocol | برترین کانال سرور v2ray"
+      - www.outline.network (US)
+      - www.outline.network (NL)
+      - www.outline.network (DE)
+      - _KR_韩国
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -134,49 +126,46 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN|🇬🇧|109.31"
-      - "@free4allVPN|🇺🇸|39.64"
-      - "@free4allVPN|🇬🇧|109.44"
-      - "@xrayzxn|🇫🇷|122.65"
-      - "@xrayzxn|🇫🇷|111.46"
-      - "@xrayzxn|🇫🇷|141.67"
-      - "@VmessProtocol|🇩🇪|125.61"
-      - "@VmessProtocol|🇩🇪|128.26"
-      - "@OutlineVpnOfficial|🇵🇱|184.41"
-      - "@OutlineVpnOfficial|🇸🇬|350.26"
-      - "@AlienVPN402|🇫🇷|148.78"
+      - United Kingdom Datacamp
+      - United Kingdom Datacamp 2
+      - Telegram | @FNET00⚡
+      - "@vless_new | تلگرام عضو بشید"
+      - "@vless_new | تلگرام عضو بشید 2"
+      - "@VmessProtocol | برترین کانال سرور v2ray"
+      - www.outline.network (US)
+      - www.outline.network (NL)
+      - www.outline.network (DE)
+      - _KR_韩国
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - "@free4allVPN|🇬🇧|109.31"
-      - "@free4allVPN|🇺🇸|39.64"
-      - "@free4allVPN|🇬🇧|109.44"
-      - "@xrayzxn|🇫🇷|122.65"
-      - "@xrayzxn|🇫🇷|111.46"
-      - "@xrayzxn|🇫🇷|141.67"
-      - "@VmessProtocol|🇩🇪|125.61"
-      - "@VmessProtocol|🇩🇪|128.26"
-      - "@OutlineVpnOfficial|🇵🇱|184.41"
-      - "@OutlineVpnOfficial|🇸🇬|350.26"
-      - "@AlienVPN402|🇫🇷|148.78"
+      - United Kingdom Datacamp
+      - United Kingdom Datacamp 2
+      - Telegram | @FNET00⚡
+      - "@vless_new | تلگرام عضو بشید"
+      - "@vless_new | تلگرام عضو بشید 2"
+      - "@VmessProtocol | برترین کانال سرور v2ray"
+      - www.outline.network (US)
+      - www.outline.network (NL)
+      - www.outline.network (DE)
+      - _KR_韩国
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - "@free4allVPN|🇬🇧|109.31"
-      - "@free4allVPN|🇺🇸|39.64"
-      - "@free4allVPN|🇬🇧|109.44"
-      - "@xrayzxn|🇫🇷|122.65"
-      - "@xrayzxn|🇫🇷|111.46"
-      - "@xrayzxn|🇫🇷|141.67"
-      - "@VmessProtocol|🇩🇪|125.61"
-      - "@VmessProtocol|🇩🇪|128.26"
-      - "@OutlineVpnOfficial|🇵🇱|184.41"
-      - "@OutlineVpnOfficial|🇸🇬|350.26"
-      - "@AlienVPN402|🇫🇷|148.78"
+      - United Kingdom Datacamp
+      - United Kingdom Datacamp 2
+      - Telegram | @FNET00⚡
+      - "@vless_new | تلگرام عضو بشید"
+      - "@vless_new | تلگرام عضو بشید 2"
+      - "@VmessProtocol | برترین کانال سرور v2ray"
+      - www.outline.network (US)
+      - www.outline.network (NL)
+      - www.outline.network (DE)
+      - _KR_韩国
 rules:
   - MATCH,MANUAL
